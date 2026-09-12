@@ -68,7 +68,7 @@ fun NovaNavGraph(
         NavHost(
             navController = navController,
             startDestination = NovaDestination.Home.route,
-            modifier = androidx.compose.ui.Modifier.padding(padding)
+            modifier = Modifier.padding(padding)
         ) {
             composable(NovaDestination.Home.route) { HomeScreen(viewModelFactory) }
             composable(NovaDestination.Chat.route) { ChatScreen(viewModelFactory) }
