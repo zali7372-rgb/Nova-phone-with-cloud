@@ -1,4 +1,6 @@
 package hu.nova.mobile.navigation
+import androidx.compose.foundation.layout.padding
+import androidx.compose.ui.Modifier
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Chat
